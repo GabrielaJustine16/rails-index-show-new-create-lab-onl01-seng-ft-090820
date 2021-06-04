@@ -42,7 +42,8 @@ class CouponsController < ApplicationController
    end 
    
    def cretate
-     
+     @coupon = Coupon.new
+     @coupon = Coupon.create(first_name:)
    end 
    
    

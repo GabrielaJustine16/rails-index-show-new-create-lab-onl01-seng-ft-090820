@@ -20,3 +20,53 @@ class CouponsController < ApplicationController
     end
   
   end
+  
+  
+  
+  
+  
+  
+  
+ class CouponsController
+   
+   def index
+     @coupon = Coupon.all 
+   end 
+   
+   def show
+     @coupon = 
+   end 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ end 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
